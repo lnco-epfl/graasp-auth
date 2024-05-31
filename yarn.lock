@@ -9415,6 +9415,7 @@ __metadata:
     husky: "npm:9.0.11"
     i18next: "npm:23.12.1"
     istanbul-lib-coverage: "npm:3.2.2"
+    lucide-react: "npm:0.429.0"
     nyc: "npm:17.0.0"
     prettier: "npm:3.3.2"
     react: "npm:18.3.1"
@@ -11006,6 +11007,15 @@ __metadata:
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
   checksum: 10/fe8a7d5b65e469ee9f376e65942a1cb66aa39fc650265be4153e0f0235a0a5b09cdb03e8f51ed1f2319bdf91e1ae0859c61fe3a25c68e08ecb289a692bf52a17
+  languageName: node
+  linkType: hard
+
+"lucide-react@npm:0.429.0":
+  version: 0.429.0
+  resolution: "lucide-react@npm:0.429.0"
+  peerDependencies:
+    react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
+  checksum: 10/dc16ddbac9365f8dd26f714deed947a89b1145a413b3ec7f720c467aa0f978dc53963b595e5cc20cbf9a073326145d5209a632b64f2f1b35a4c73de4da936d01
   languageName: node
   linkType: hard
 
