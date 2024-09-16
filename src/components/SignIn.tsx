@@ -2,10 +2,10 @@ import React, { FC, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 import { RecaptchaAction } from '@graasp/sdk';
-import { Button, GraaspLogo } from '@graasp/ui';
+import { Button } from '@graasp/ui';
 
 import { LoadingButton } from '@mui/lab';
-import { Stack, useTheme } from '@mui/material';
+import { Stack } from '@mui/material';
 import Box from '@mui/material/Box';
 import FormControl from '@mui/material/FormControl';
 import Typography from '@mui/material/Typography';
@@ -46,7 +46,6 @@ const {
 const SignIn: FC = () => {
   const { t } = useAuthTranslation();
   const { executeCaptcha } = useRecaptcha();
-  const theme = useTheme();
 
   const { isMobile, challenge } = useMobileAppLogin();
   const { search } = useLocation();
@@ -249,7 +248,9 @@ const SignIn: FC = () => {
           )}
         </Stack>
       </FormControl>
-      <Link to={`${SIGN_UP_PATH}${search}`}>{t(SIGN_UP_LINK_TEXT)}</Link>
+      <Link style={{ color: '#000' }} to={`${SIGN_UP_PATH}${search}`}>
+        {t(SIGN_UP_LINK_TEXT)}
+      </Link>
     </>
   );
 
@@ -270,11 +271,13 @@ const SignIn: FC = () => {
         ) : (
           <Stack direction="column" alignItems="center" spacing={2}>
             <Stack spacing={1}>
-              <GraaspLogo
-                height={90}
-                sx={{ fill: theme.palette.primary.main }}
-              />
-              <Typography variant="h4" component="h2" id={SIGN_IN_HEADER_ID}>
+              <img alt="LNCO Logo" height="200" src="/lnco-logo.png" />
+              <Typography
+                variant="h4"
+                component="h2"
+                id={SIGN_IN_HEADER_ID}
+                sx={{ textAlign: 'center' }}
+              >
                 {t(SIGN_IN_HEADER)}
               </Typography>
             </Stack>
@@ -285,6 +288,7 @@ const SignIn: FC = () => {
                 disabled={signInMethod === SIGN_IN_METHODS.EMAIL}
                 onClick={handleSignInMethod}
                 id={EMAIL_SIGN_IN_METHOD_BUTTON_ID}
+                color={'secondary'}
               >
                 {t(EMAIL_SIGN_IN_METHOD)}
               </Button>
@@ -293,6 +297,7 @@ const SignIn: FC = () => {
                 disabled={signInMethod === SIGN_IN_METHODS.PASSWORD}
                 onClick={handleSignInMethod}
                 id={PASSWORD_SIGN_IN_METHOD_BUTTON_ID}
+                color={'secondary'}
               >
                 {t(PASSWORD_SIGN_IN_METHOD)}
               </Button>
