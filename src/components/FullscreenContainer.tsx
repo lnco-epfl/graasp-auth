@@ -25,12 +25,12 @@ const FullscreenContainer = ({ children }: Props): JSX.Element => (
       <Box
         alignItems="center"
         bgcolor="white"
-        border="1px solid #ffaaaa"
+        border="1px solid rgba(40, 40, 40, 0.4)"
         borderRadius={3}
         px={{ xs: 2, sm: 8 }}
         py={{ xs: 2, sm: 6 }}
         m={4}
-        boxShadow="0px 0px 20px 5px rgba(255, 0, 0, 0.2)"
+        boxShadow="0px 0px 20px 5px rgba(40, 40, 40, 0.3)"
       >
         {children}
       </Box>

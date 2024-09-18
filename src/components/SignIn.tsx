@@ -288,7 +288,7 @@ const SignIn: FC = () => {
                 disabled={signInMethod === SIGN_IN_METHODS.EMAIL}
                 onClick={handleSignInMethod}
                 id={EMAIL_SIGN_IN_METHOD_BUTTON_ID}
-                color={'secondary'}
+                color={'primary'}
               >
                 {t(EMAIL_SIGN_IN_METHOD)}
               </Button>
@@ -297,7 +297,7 @@ const SignIn: FC = () => {
                 disabled={signInMethod === SIGN_IN_METHODS.PASSWORD}
                 onClick={handleSignInMethod}
                 id={PASSWORD_SIGN_IN_METHOD_BUTTON_ID}
-                color={'secondary'}
+                color={'primary'}
               >
                 {t(PASSWORD_SIGN_IN_METHOD)}
               </Button>
