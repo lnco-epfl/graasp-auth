@@ -248,9 +248,7 @@ const SignIn: FC = () => {
           )}
         </Stack>
       </FormControl>
-      <Link style={{ color: '#000' }} to={`${SIGN_UP_PATH}${search}`}>
-        {t(SIGN_UP_LINK_TEXT)}
-      </Link>
+      <Link to={`${SIGN_UP_PATH}${search}`}>{t(SIGN_UP_LINK_TEXT)}</Link>
     </>
   );
 

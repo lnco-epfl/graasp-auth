@@ -211,10 +211,7 @@ const SignUp = () => {
           </LoadingButton>
         </Stack>
       </FormControl>
-      <Link
-        style={{ color: '#000' }}
-        to={`${SIGN_IN_PATH}?${searchParams.toString()}`}
-      >
+      <Link to={`${SIGN_IN_PATH}?${searchParams.toString()}`}>
         {t(SIGN_IN_LINK_TEXT)}
       </Link>
     </Stack>
