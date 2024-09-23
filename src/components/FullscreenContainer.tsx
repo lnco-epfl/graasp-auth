@@ -1,5 +1,6 @@
 import { Box, Stack } from '@mui/material';
 
+import { AUTH_BOX_BORDER_AND_SHADOW_COLOR } from '../config/constants';
 import APIChecker from './APIChecker';
 import Footer from './Footer';
 
@@ -25,12 +26,12 @@ const FullscreenContainer = ({ children }: Props): JSX.Element => (
       <Box
         alignItems="center"
         bgcolor="white"
-        border="1px solid rgba(40, 40, 40, 0.4)"
+        border={`1px solid ${AUTH_BOX_BORDER_AND_SHADOW_COLOR}`}
         borderRadius={3}
         px={{ xs: 2, sm: 8 }}
         py={{ xs: 2, sm: 6 }}
         m={4}
-        boxShadow="0px 0px 20px 5px rgba(40, 40, 40, 0.3)"
+        boxShadow={`0px 0px 20px 5px ${AUTH_BOX_BORDER_AND_SHADOW_COLOR}`}
       >
         {children}
       </Box>

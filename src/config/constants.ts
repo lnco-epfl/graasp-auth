@@ -1,1 +1,2 @@
 export const MAX_CHECKBOX_LABEL_WITH_PX_SIGN_UP = 330;
+export const AUTH_BOX_BORDER_AND_SHADOW_COLOR = 'rgba(40,40,40,0.4)';
