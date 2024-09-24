@@ -6,10 +6,9 @@ import {
   MIN_USERNAME_LENGTH,
   RecaptchaAction,
 } from '@graasp/sdk';
-import { GraaspLogo } from '@graasp/ui';
 
 import { LoadingButton } from '@mui/lab';
-import { FormControl, LinearProgress, Stack, useTheme } from '@mui/material';
+import { FormControl, LinearProgress, Stack } from '@mui/material';
 import Typography from '@mui/material/Typography';
 
 import { useAuthTranslation } from '../../config/i18n';
@@ -51,7 +50,6 @@ function RegisterInnerComponent() {
   const { t, i18n } = useAuthTranslation();
   const navigate = useNavigate();
   const { executeCaptcha } = useRecaptcha();
-  const theme = useTheme();
 
   const { isMobile, challenge } = useMobileAppLogin();
   const redirect = useRedirection();
@@ -153,9 +151,9 @@ function RegisterInnerComponent() {
   };
 
   return (
-    <Stack direction="column" spacing={2}>
+    <Stack direction="column" alignItems="center" spacing={2}>
       <Stack spacing={1}>
-        <GraaspLogo height={90} sx={{ fill: theme.palette.primary.main }} />
+        <img alt="LNCO Logo" height="200" src="/lnco-logo.png" />
         <Typography
           variant="h4"
           component="h2"
