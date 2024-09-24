@@ -15,7 +15,7 @@ const Footer = () => {
     >
       {languageSelect}
       <Typography variant="caption" color="darkgrey">
-        © Graasp 2014 - {new Date().getFullYear()}
+        © LNCO 2024 - {new Date().getFullYear()}
       </Typography>
     </Box>
   );

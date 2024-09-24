@@ -19,7 +19,7 @@ import { RecaptchaProvider } from './context/RecaptchaContext';
 
 const Content = () => {
   const { i18n } = useCommonTranslation();
-
+  // The Graasp SDK has the Language Selector hidden in the code of the MUI ThemeProvider, which has a hard-coded style. To continue to use Graasp SDK with a custom style, but retain the Language Selector, I first use the Graasp Theme Provider to create the standard Graasp Theme with Language Selector and then override the Theme using the MUI Themeprovider
   return (
     <ThemeProvider
       i18n={i18n}
@@ -27,7 +27,7 @@ const Content = () => {
       languageSelectSx={{ mb: 2, mr: 2 }}
     >
       <CssBaseline />
-      {SHOW_NOTIFICATIONS && <ToastContainer stacked />}
+      {SHOW_NOTIFICATIONS ? <ToastContainer stacked /> : null}
       <RecaptchaProvider siteKey={RECAPTCHA_SITE_KEY}>
         <App />
       </RecaptchaProvider>
