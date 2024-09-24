@@ -4,23 +4,21 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [2.7.5](https://github.com/graasp/graasp-auth/compare/v2.7.4...v2.7.5) (2024-10-28)
 
-
 ### Bug Fixes
 
-* translations ([#498](https://github.com/graasp/graasp-auth/issues/498)) ([07f7fb6](https://github.com/graasp/graasp-auth/commit/07f7fb644ea1f9cfc5f5b8d39a172948966cd01d))
+- translations ([#498](https://github.com/graasp/graasp-auth/issues/498)) ([07f7fb6](https://github.com/graasp/graasp-auth/commit/07f7fb644ea1f9cfc5f5b8d39a172948966cd01d))
 
 ## [2.7.4](https://github.com/graasp/graasp-auth/compare/v2.7.3...v2.7.4) (2024-10-25)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @graasp/query-client to v5 ([#468](https://github.com/graasp/graasp-auth/issues/468)) ([d4a84d1](https://github.com/graasp/graasp-auth/commit/d4a84d156e852a73d80298c8bca4c94471752b2d))
-* **deps:** update dependency i18next to v23.16.3 ([#479](https://github.com/graasp/graasp-auth/issues/479)) ([162ff24](https://github.com/graasp/graasp-auth/commit/162ff2454bdd2253990200d73fee5d3f295490ee))
-* **french:** update translations ([#490](https://github.com/graasp/graasp-auth/issues/490)) ([7921e71](https://github.com/graasp/graasp-auth/commit/7921e7168cfcc50b2beb87ab5b246ff3ab2a675e))
-* **german:** update translations ([#491](https://github.com/graasp/graasp-auth/issues/491)) ([9610266](https://github.com/graasp/graasp-auth/commit/961026691bfcba3a2cef0be8e926085458de36ff))
-* message shown on the button when reset is success ([#489](https://github.com/graasp/graasp-auth/issues/489)) ([9018078](https://github.com/graasp/graasp-auth/commit/90180782dbddd5580f26e2997633e4fd91f72e9f))
-* upgrade to mui v6 ([#495](https://github.com/graasp/graasp-auth/issues/495)) ([b0024d4](https://github.com/graasp/graasp-auth/commit/b0024d4a82ea88a0ad4c29660026bf9fba66e8ca))
-* validate email with enter ([#483](https://github.com/graasp/graasp-auth/issues/483)) ([e671a2a](https://github.com/graasp/graasp-auth/commit/e671a2a526f197c4b69076c1148467cd2a714078))
+- **deps:** update dependency @graasp/query-client to v5 ([#468](https://github.com/graasp/graasp-auth/issues/468)) ([d4a84d1](https://github.com/graasp/graasp-auth/commit/d4a84d156e852a73d80298c8bca4c94471752b2d))
+- **deps:** update dependency i18next to v23.16.3 ([#479](https://github.com/graasp/graasp-auth/issues/479)) ([162ff24](https://github.com/graasp/graasp-auth/commit/162ff2454bdd2253990200d73fee5d3f295490ee))
+- **french:** update translations ([#490](https://github.com/graasp/graasp-auth/issues/490)) ([7921e71](https://github.com/graasp/graasp-auth/commit/7921e7168cfcc50b2beb87ab5b246ff3ab2a675e))
+- **german:** update translations ([#491](https://github.com/graasp/graasp-auth/issues/491)) ([9610266](https://github.com/graasp/graasp-auth/commit/961026691bfcba3a2cef0be8e926085458de36ff))
+- message shown on the button when reset is success ([#489](https://github.com/graasp/graasp-auth/issues/489)) ([9018078](https://github.com/graasp/graasp-auth/commit/90180782dbddd5580f26e2997633e4fd91f72e9f))
+- upgrade to mui v6 ([#495](https://github.com/graasp/graasp-auth/issues/495)) ([b0024d4](https://github.com/graasp/graasp-auth/commit/b0024d4a82ea88a0ad4c29660026bf9fba66e8ca))
+- validate email with enter ([#483](https://github.com/graasp/graasp-auth/issues/483)) ([e671a2a](https://github.com/graasp/graasp-auth/commit/e671a2a526f197c4b69076c1148467cd2a714078))
 
 ## [2.7.3](https://github.com/graasp/graasp-auth/compare/v2.7.2...v2.7.3) (2024-10-22)
 
