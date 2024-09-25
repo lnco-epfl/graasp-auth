@@ -2427,7 +2427,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graasp/stylis-plugin-rtl@npm:^2":
+"@graasp/stylis-plugin-rtl@npm:2.2.0":
   version: 2.2.0
   resolution: "@graasp/stylis-plugin-rtl@npm:2.2.0"
   dependencies:
@@ -7686,7 +7686,7 @@ __metadata:
     "@emotion/styled": "npm:11.11.5"
     "@graasp/query-client": "npm:3.15.0"
     "@graasp/sdk": "npm:4.17.0"
-    "@graasp/stylis-plugin-rtl": "npm:^2"
+    "@graasp/stylis-plugin-rtl": "npm:2.2.0"
     "@graasp/translations": "npm:1.32.0"
     "@graasp/ui": "https://github.com/lnco-epfl/graasp-ui#1-update-ui-for-lnco-graasp"
     "@mui/icons-material": "npm:5.16.1"
@@ -7717,7 +7717,7 @@ __metadata:
     husky: "npm:9.0.11"
     i18next: "npm:23.12.1"
     istanbul-lib-coverage: "npm:3.2.2"
-    lucide-react: "npm:^0.417.0 || ^0.429.0 || ^0.436.0 || ^0.439.0 || ^0.441.0"
+    lucide-react: "npm:0.441.0"
     nyc: "npm:17.0.0"
     prettier: "npm:3.3.2"
     react: "npm:18.3.1"
@@ -9184,7 +9184,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.417.0 || ^0.429.0 || ^0.436.0 || ^0.439.0 || ^0.441.0":
+"lucide-react@npm:0.441.0":
   version: 0.441.0
   resolution: "lucide-react@npm:0.441.0"
   peerDependencies:
