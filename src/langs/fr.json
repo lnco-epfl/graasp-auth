@@ -39,12 +39,12 @@
   "INVALID_EMAIL_ERROR": "Cela ne ressemble pas à une adresse e-mail valide",
   "EMPTY_EMAIL_ERROR": "Une adresse email est obligatoire, ce champ ne peut pas être vide",
   "PASSWORD_EMPTY_ERROR": "Le mot de passe ne peut pas être vide",
-  "BUILDER_BACKGROUND_TEXT": "Créer vos propres activités d'apprentissage dans le",
+  "BUILDER_BACKGROUND_TEXT": "Créez vos propres expériences et exécutez-les en ligne à l'aide du",
   "BUILDER_BACKGROUND_TEXT_PLATFORM": "Builder",
-  "PLAYER_BACKGROUND_TEXT": "Impliquez vos étudiants dans des activités interactives avec le",
+  "PLAYER_BACKGROUND_TEXT": "Atteignez vos sujets avec vos expériences à travers le",
   "PLAYER_BACKGROUND_TEXT_PLATFORM": "Player",
   "LIBRARY_BACKGROUND_TEXT": "Découvrir et partager des Resources éducatives libres dans notre",
   "LIBRARY_BACKGROUND_TEXT_PLATFORM": "Library",
-  "ANALYTICS_BACKGROUND_TEXT": "Obtenez des perspectives et explorez les tableaux de bord avec",
+  "ANALYTICS_BACKGROUND_TEXT": "Obtenez des informations précieuses et exportez vos données",
   "ANALYTICS_BACKGROUND_TEXT_PLATFORM": "Analytics"
 }
