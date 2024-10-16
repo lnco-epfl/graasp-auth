@@ -15,3 +15,6 @@ export const SHOW_NOTIFICATIONS =
 
 export const GRAASP_LANDING_PAGE_HOST =
   import.meta.env.VITE_GRAASP_LANDING_PAGE_ORIGIN || 'https://graasp.org';
+
+export const GRAASP_BUILDER_HOST =
+  import.meta.env.VITE_GRAASP_BUILDER_HOST || 'http://localhost:3111';
