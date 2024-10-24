@@ -12,38 +12,42 @@ import { LoadingButton } from '@mui/lab';
 import { FormControl, LinearProgress, Stack } from '@mui/material';
 import Typography from '@mui/material/Typography';
 
-import { useAuthTranslation } from '../config/i18n';
-import { SIGN_IN_MAGIC_LINK_SUCCESS_PATH, SIGN_IN_PATH } from '../config/paths';
-import { hooks, mutations } from '../config/queryClient';
+import { useAuthTranslation } from '../../config/i18n';
+import {
+  SIGN_IN_MAGIC_LINK_SUCCESS_PATH,
+  SIGN_IN_PATH,
+} from '../../config/paths';
+import { hooks, mutations } from '../../config/queryClient';
 import {
   EMAIL_SIGN_UP_FIELD_ID,
   NAME_SIGN_UP_FIELD_ID,
   SIGN_UP_BUTTON_ID,
   SIGN_UP_HEADER_ID,
-} from '../config/selectors';
-import { useRecaptcha } from '../context/RecaptchaContext';
-import { useMobileAppLogin } from '../hooks/mobile';
-import { useRedirection } from '../hooks/searchParams';
-import { useAgreementForm } from '../hooks/useAgreementForm';
-import { AUTH } from '../langs/constants';
-import { emailValidator, nameValidator } from '../utils/validation';
+} from '../../config/selectors';
+import { useRecaptcha } from '../../context/RecaptchaContext';
+import { useMobileAppLogin } from '../../hooks/mobile';
+import { useRedirection } from '../../hooks/searchParams';
+import { useAgreementForm } from '../../hooks/useAgreementForm';
+import { AUTH } from '../../langs/constants';
+import { emailValidator, nameValidator } from '../../utils/validation';
+import { LeftContentContainer } from '../LeftContentContainer';
+import { EmailAdornment } from '../common/Adornments';
+import { ErrorDisplay } from '../common/ErrorDisplay';
+import { StyledTextField } from '../common/StyledTextField';
+import { AgreementForm } from '../register/AgreementForm';
 import { EmailInput } from './EmailInput';
-import LeftContentContainer from './LeftContentContainer';
-import { EmailAdornment } from './common/EmailAdornment';
-import ErrorDisplay from './common/ErrorDisplay';
-import StyledTextField from './common/StyledTextField';
-import { AgreementForm } from './register/AgreementForm';
-import { EnableAnalyticsForm } from './register/EnableAnalyticsForm';
+import { EnableAnalyticsForm } from './EnableAnalyticsForm';
 
 const {
   SIGN_IN_LINK_TEXT,
+  SIGN_IN_LINK_TEXT_BUTTON,
   SIGN_UP_HEADER,
   NAME_FIELD_LABEL,
   SIGN_UP_BUTTON,
   INVITATIONS_LOADING_MESSAGE,
 } = AUTH;
 
-const SignUp = () => {
+function RegisterInnerComponent() {
   const { t, i18n } = useAuthTranslation();
   const navigate = useNavigate();
   const { executeCaptcha } = useRecaptcha();
@@ -212,17 +216,18 @@ const SignUp = () => {
           </LoadingButton>
         </Stack>
       </FormControl>
+      <Typography>{t(SIGN_IN_LINK_TEXT)}</Typography>
       <Link to={`${SIGN_IN_PATH}?${searchParams.toString()}`}>
-        {t(SIGN_IN_LINK_TEXT)}
+        {t(SIGN_IN_LINK_TEXT_BUTTON)}
       </Link>
     </Stack>
   );
-};
+}
 
-const SignUpScreenWrapper = () => (
-  <LeftContentContainer>
-    <SignUp />
-  </LeftContentContainer>
-);
-
-export default SignUpScreenWrapper;
+export function Register() {
+  return (
+    <LeftContentContainer>
+      <RegisterInnerComponent />
+    </LeftContentContainer>
+  );
+}

@@ -1,8 +1,7 @@
 export const DOMAIN = import.meta.env.VITE_GRAASP_DOMAIN;
 export const APP_VERSION = import.meta.env.VITE_VERSION;
-
 export const API_HOST =
-  import.meta.env.VITE_GRAASP_API_HOST || 'http://localhost:3000';
+  import.meta.env.VITE_GRAASP_API_HOST ?? 'http://localhost:3000';
 
 export const RECAPTCHA_SITE_KEY = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
 
@@ -16,5 +15,5 @@ export const SHOW_NOTIFICATIONS =
 export const GRAASP_LANDING_PAGE_HOST =
   import.meta.env.VITE_GRAASP_LANDING_PAGE_ORIGIN || 'https://graasp.org';
 
-export const GRAASP_BUILDER_HOST =
-  import.meta.env.VITE_GRAASP_BUILDER_HOST || 'http://localhost:3111';
+export const DEFAULT_REDIRECTION_URL = import.meta.env
+  .VITE_DEFAULT_REDIRECTION_URL;

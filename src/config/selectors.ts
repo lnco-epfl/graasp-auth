@@ -1,7 +1,8 @@
 export const NAME_SIGN_UP_FIELD_ID = 'nameSignUpField';
 
+export const MAGIC_LINK_EMAIL_FIELD_ID = 'magicLinkEmail';
+
 export const EMAIL_SIGN_UP_FIELD_ID = 'emailSignUpField';
-export const EMAIL_SIGN_IN_MAGIC_LINK_FIELD_ID = 'emailSignInMagicLinkField';
 export const EMAIL_SIGN_IN_FIELD_ID = 'emailSignInField';
 
 export const REQUEST_PASSWORD_RESET_EMAIL_FIELD_ID = 'passwordResetEmailField';
@@ -26,6 +27,8 @@ export const RESET_PASSWORD_NEW_PASSWORD_FIELD_ERROR_TEXT_ID =
   'resetPasswordNewPasswordErrorText';
 export const RESET_PASSWORD_NEW_PASSWORD_CONFIRMATION_FIELD_ERROR_TEXT_ID =
   'resetPasswordNewPasswordConfirmationErrorText';
+export const RESET_PASSWORD_BACK_TO_LOGIN_BUTTON_ID =
+  'resetPasswordBackToLoginButton';
 
 export const PASSWORD_SIGN_IN_FIELD_ID = 'passwordSignInField';
 export const PASSWORD_SIGN_IN_BUTTON_ID = 'passwordSignInButton';
@@ -45,3 +48,7 @@ export const PASSWORD_SUCCESS_ALERT = 'passwordSuccessAlert';
 
 export const PLATFORM_ADVERTISEMENT_CONTAINER_ID =
   'platformAdvertisementContainer';
+
+export const REDIRECTION_CONTENT_CONTAINER_ID = 'redirectionContentContainer';
+
+export const ERROR_DISPLAY_ID = 'errorDisplay';
