@@ -1,10 +1,4 @@
-import {
-  AccentColors,
-  AnalyticsIcon,
-  BuildIcon,
-  LibraryIcon,
-  PlayIcon,
-} from '@graasp/ui';
+import { AccentColors, AnalyticsIcon, BuildIcon, PlayIcon } from '@graasp/ui';
 
 import { Box, Stack } from '@mui/material';
 
@@ -68,12 +62,6 @@ export function LeftContentContainer({ children }: Props): JSX.Element {
               text={t(AUTH.PLAYER_BACKGROUND_TEXT)}
               name={t(AUTH.PLAYER_BACKGROUND_TEXT_PLATFORM)}
               color={AccentColors.player}
-            />
-            <PlatformContent
-              Icon={LibraryIcon}
-              text={t(AUTH.LIBRARY_BACKGROUND_TEXT)}
-              name={t(AUTH.LIBRARY_BACKGROUND_TEXT_PLATFORM)}
-              color={AccentColors.library}
             />
             <PlatformContent
               Icon={AnalyticsIcon}

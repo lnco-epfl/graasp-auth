@@ -49,13 +49,13 @@
   "PASSWORD_DO_NOT_MATCH_ERROR": "The passwords do not match.",
   "PASSWORD_SUCCESS_ALERT": "You successfully signed in. You will be redirected soon.",
   "PASSWORD_INPUT_PLACEHOLDER": "Password",
-  "BUILDER_BACKGROUND_TEXT": "Create your own learning activities with the",
+  "BUILDER_BACKGROUND_TEXT": "Create your own experiments and run them online using the",
   "BUILDER_BACKGROUND_TEXT_PLATFORM": "Builder",
-  "PLAYER_BACKGROUND_TEXT": "Engage your students in your activities with the",
+  "PLAYER_BACKGROUND_TEXT": "Reach your subjects with your experiments through the",
   "PLAYER_BACKGROUND_TEXT_PLATFORM": "Player",
   "LIBRARY_BACKGROUND_TEXT": "Discover and share Open Educational Resources in our",
   "LIBRARY_BACKGROUND_TEXT_PLATFORM": "Library",
-  "ANALYTICS_BACKGROUND_TEXT": "Gain valuable insights and explore dashboards with",
+  "ANALYTICS_BACKGROUND_TEXT": "Gain valuable insights and export your data",
   "ANALYTICS_BACKGROUND_TEXT_PLATFORM": "Analytics",
   "LOGIN_METHODS_DIVIDER": "or",
   "REQUEST_PASSWORD_RESET_LINK": "Forgot password?",
@@ -89,5 +89,5 @@
   "INVALID_TOKEN_PROVIDED_DESCRIPTION": "No token was provided or the provided token is expired. Click the button below to generate a request to reset your password.",
   "REDIRECTION_TITLE": "Welcome back, {{name}}",
   "REDIRECTION_DESCRIPTION": "You are logged in.",
-  "REDIRECTION_BUTTON": "Go to Graasp"
+  "REDIRECTION_BUTTON": "Go to LNCO.ai"
 }

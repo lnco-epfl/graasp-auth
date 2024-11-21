@@ -33,6 +33,9 @@ cypress/downloads/
 # jetbrains
 .idea
 
+# vite
+.vite.config.ts.timestamp-*
+
 # yarn
 .yarn/*
 !.yarn/patches
