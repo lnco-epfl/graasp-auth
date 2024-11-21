@@ -85,5 +85,5 @@
   "INVALID_TOKEN_PROVIDED_DESCRIPTION": "Es wurde kein Token bereitgestellt oder das bereitgestellte Token ist abgelaufen. Klicken Sie auf die Schaltfläche unten, um eine Anfrage zum Zurücksetzen Ihres Passworts zu generieren.",
   "REDIRECTION_TITLE": "Willkommen zurück, {{name}}",
   "REDIRECTION_DESCRIPTION": "Sie sind angemeldet.",
-  "REDIRECTION_BUTTON": "Gehe zu Graasp"
+  "REDIRECTION_BUTTON": "Gehe zu LNCO.ai"
 }
