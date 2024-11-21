@@ -50,7 +50,7 @@
   "PASSWORD_INPUT_PLACEHOLDER": "Mot de passe",
   "BUILDER_BACKGROUND_TEXT": "Créer vos propres activités d'apprentissage dans le",
   "BUILDER_BACKGROUND_TEXT_PLATFORM": "Builder",
-  "PLAYER_BACKGROUND_TEXT": "Impliquez vos étudiants dans des activités interactives avec le",
+  "PLAYER_BACKGROUND_TEXT": "Atteignez vos sujets avec vos expériences à travers le",
   "PLAYER_BACKGROUND_TEXT_PLATFORM": "Player",
   "LIBRARY_BACKGROUND_TEXT": "Découvrir et partager des Resources éducatives libres dans notre",
   "LIBRARY_BACKGROUND_TEXT_PLATFORM": "Library",
@@ -85,5 +85,5 @@
   "INVALID_TOKEN_PROVIDED_DESCRIPTION": "Aucun jeton n'a été fourni ou le jeton fourni a expiré. Cliquez sur le bouton ci-dessous pour générer une demande de réinitialisation de votre mot de passe.",
   "REDIRECTION_TITLE": "Bienvenue, {{name}}",
   "REDIRECTION_DESCRIPTION": "Vous êtes connecté.",
-  "REDIRECTION_BUTTON": "Aller à Graasp"
+  "REDIRECTION_BUTTON": "Aller à LNCO.ai"
 }
