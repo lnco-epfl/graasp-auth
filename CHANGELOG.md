@@ -2,8 +2,6 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-<<<<<<< HEAD
-
 ## [2.7.6](https://github.com/graasp/graasp-auth/compare/v2.7.5...v2.7.6) (2024-11-04)
 
 ### Bug Fixes
@@ -32,13 +30,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Bug Fixes
 
-=======
-
 ## [2.7.3](https://github.com/graasp/graasp-auth/compare/v2.7.2...v2.7.3) (2024-10-22)
 
 ### Bug Fixes
-
-> > > > > > > 78d0108 (feat: update theme, logo's and naming of platform for lnco.ai)
 
 - **deps:** update dependency @mui/lab to v5.0.0-alpha.173 ([#426](https://github.com/graasp/graasp-auth/issues/426)) ([0f98ab9](https://github.com/graasp/graasp-auth/commit/0f98ab98577324ca60164df95b64f449d4c9eaa8))
 - make redirection screen more user friendly ([#485](https://github.com/graasp/graasp-auth/issues/485)) ([a71ded4](https://github.com/graasp/graasp-auth/commit/a71ded4b8d3d5062463b43f8d4554daf32e15970))
